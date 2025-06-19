@@ -495,7 +495,7 @@ function App() {
                 school: "KCA University",
                 period: "2022 - 2026",
                 description: "Specialized in Full Stack web development and cloud computing.",
-                achievements: ["Dean's List", "Research Assistant", "Published 2 papers"]
+                achievements: ["Web development", "Google Cloud"]
               },
               {
                 degree: " Internet of Things",
