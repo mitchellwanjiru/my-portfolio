@@ -37,11 +37,12 @@ export const NavBar = ({ items, className }: NavBarProps) => {
       }}
       transition={{ duration: 0.3 }}
       className={cn(
-        "fixed left-6 top-1/2 -translate-y-1/2 z-50",
+        "fixed left-2  -translate-y-1/2 z-50",
         className,
       )}
     >
-      <div className="flex flex-col items-center gap-3 bg-black/80 border border-gray-800 backdrop-blur-lg py-3 px-3 rounded-2xl shadow-lg">
+      <div className='w-screen mx-auto'>
+      <div className="flex max-w-[750px] mx-auto justify-around  z-50 items-center  bg-black/80 border border-gray-800 backdrop-blur-lg py-3 px-3 rounded-2xl shadow-lg">
         {items.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.name;
@@ -78,6 +79,7 @@ export const NavBar = ({ items, className }: NavBarProps) => {
             </a>
           );
         })}
+      </div>
       </div>
     </motion.div>
   );

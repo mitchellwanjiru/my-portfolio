@@ -99,14 +99,14 @@ function App() {
       <NavBar items={navItems} />
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section id="home" className="relative min-h-screen flex items-center justify-center">
         <AuroraBackground>
           <div className="absolute inset-0 z-0">
             <SparklesCore
               background="transparent"
               minSize={0.4}
               maxSize={1.2}
-              particleDensity={50}
+              particleDensity={70}
               className="w-full h-full"
               particleColor="#8b5cf6"
               speed={0.7}
@@ -129,7 +129,7 @@ function App() {
               transition={{ delay: 0.5, duration: 0.5 }}
               className="relative mb-8 mt-20"
             >
-              <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-purple-500/30 shadow-2xl">
+              <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-purple-500/30 shadow-2xl">
                 <img
                   src="https://res.cloudinary.com/dgs7wqzhg/image/upload/v1750335691/profile_zshjob.jpg"
                   alt="Profile"
@@ -142,7 +142,7 @@ function App() {
             </motion.div>
 
             <div className="space-y-4">
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.7 }}
@@ -150,9 +150,12 @@ function App() {
               >
                 <Instagram className="w-4 h-4 text-purple-400" />
                 <span className="text-sm text-purple-300 font-medium">@developer.portfolio</span>
-              </motion.div>
+              </motion.div> */}
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white text-center">
+                <span className="gradient-text">
+                  Mitchell Wanjiru <br></br>
+                </span>
                 <span className="gradient-text">
                   Software Developer
                 </span>
