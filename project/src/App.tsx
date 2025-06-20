@@ -109,7 +109,7 @@ function App() {
               particleDensity={50}
               className="w-full h-full"
               particleColor="#8b5cf6"
-              speed={0.5}
+              speed={0.7}
             />
           </div>
           
