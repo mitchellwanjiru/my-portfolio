@@ -226,8 +226,8 @@ function App() {
               </h3>
               <div className="grid grid-cols-1 gap-4">
                 {[
-                  { name: "React/Next.js", level: 20 },
-                  { name: "TypeScript", level: 30 },
+                  { name: "React/Next.js", level: 50 },
+                  { name: "TypeScript", level: 40 },
                   { name: "Node.js", level: 10 },
                   { name: "Python", level: 80 },
                   { name: "Java", level: 75 },
