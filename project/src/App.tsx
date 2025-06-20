@@ -175,6 +175,14 @@ function App() {
                 >
                   View My Work
                 </motion.button>
+                {/* <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full px-8 py-3 font-medium hover:shadow-lg transition-all duration-300"
+                >
+                  My Resume
+                </motion.button> */}
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -310,6 +318,9 @@ function App() {
                   {
                     name: "Attachee",
                     issuer: "Kenya Agricultural and Livestock Research Organization",
+                    experience: "Performed ICT help desk operations",
+                    experiences: "Developed front-end company website",
+                    experienced: "Cleaned and organized company data",
                     year: "May - August 2025"
                   },
                   
@@ -338,6 +349,9 @@ function App() {
                   >
                     <h4 className="font-semibold text-white">{cert.name}</h4>
                     <p className="text-sm text-gray-400">{cert.issuer}</p>
+                    <p className="text-sm text-gray-400">{cert.experience}</p>
+                    <p className="text-sm text-gray-400">{cert.experiences}</p>
+                    <p className="text-sm text-gray-400">{cert.experienced}</p>
                     <p className="text-xs text-purple-400 font-medium">{cert.year}</p>
                   </motion.div>
                 ))}
@@ -498,14 +512,14 @@ function App() {
                 school: "KCA University",
                 period: "2022 - 2026",
                 description: "Specialized in Full Stack web development and cloud computing.",
-                achievements: ["Web development", "Google Cloud"]
+                achievements: ["Web dev","OOP", "Operating systems", "DBMS","Info systems"]
               },
               {
                 degree: " Internet of Things",
                 school: "Angaza Elimu",
                 period: "2024 - 2024",
-                description: "Focused on full-stack development and software architecture. Active member of the Computer Science Society.",
-                achievements: ["PCB Design", "Arduino", "Edge Computing"]
+                description: "Completed an IoT certification focused on embedded systems, sensor integration, and real-time data communication. Gained hands-on experience building smart devices using ESP32, including motion detection systems and smart home systems.",
+                achievements: ["PCB Design", "Arduino", "Edge Computing", "ESP32S2"]
               },
               // {
               //   degree: "Full Stack Web Development Bootcamp",
