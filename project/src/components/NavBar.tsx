@@ -42,7 +42,7 @@ export const NavBar = ({ items, className }: NavBarProps) => {
       )}
     >
       <div className='w-screen mx-auto'>
-      <div className="flex max-w-[750px] mx-auto justify-around  z-50 items-center  bg-black/80 border border-gray-800 backdrop-blur-lg py-3 px-3 rounded-2xl shadow-lg">
+      <div className="flex max-w-[750px] justify-around mx-auto z-50 items-center  bg-black/80 border border-gray-800 backdrop-blur-lg py-3 rounded-2xl shadow-lg">
         {items.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.name;
