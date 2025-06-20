@@ -20,7 +20,8 @@ export const NavBar = ({ items, className }: NavBarProps) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      setIsVisible(scrollY > 100);
+      // setIsVisible(scrollY > 100);
+      setIsVisible(scrollY < 3000);
     };
 
     window.addEventListener("scroll", handleScroll);
