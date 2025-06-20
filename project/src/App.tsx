@@ -574,9 +574,9 @@ function App() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="https://mitchellwanjiru95@gmail.com"
+                href="mailto:mitchellwanjiru95@gmail.com"
                 whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+                whileTap={{ scale: 0.95 }}        
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full px-8 py-3 font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
               >
                 <Mail size={16} /> Send Email
