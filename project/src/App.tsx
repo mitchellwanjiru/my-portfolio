@@ -48,6 +48,14 @@ function App() {
       githubUrl: "https://github.com/mitchellwanjiru/school_project"
     },
     {
+      title: "Chipua Africa Website",
+      description: "Chipua Africa is a clean, modern website designed to promote opportunities, innovation, and growth in football across the African continent.",
+      image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1751647650/Screenshot_2025-07-04_193915_xbd0rf.png",
+      tags: ["Nextjs", "Vercel", "Emailjs"],
+      liveUrl: "https://chipua-web-v1.vercel.app/",
+      githubUrl: "https://github.com/mitchellwanjiru/Chipua-web"
+    },
+        {
       title: "E-Book Website",
       description: "A beautiful website designed for purchasing E-books",
       image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1750333119/Screenshot_2025-06-19_143810_mi8e8b.png",
@@ -55,14 +63,6 @@ function App() {
       liveUrl: "https://mitchellwanjiru.github.io/docs/",
       githubUrl: "https://github.com/mitchellwanjiru/docs"
     },
-    // {
-    //   title: "KALRO Landing page",
-    //   description: "Cross-platform fitness tracking app with workout plans, progress tracking, and social features for motivation.",
-    //   image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    //   tags: ["React Native", "Firebase", "Redux", "Expo"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com/example/fitness-app"
-    // },
     // {
     //   title: "Blockchain Voting System",
     //   description: "Secure and transparent voting system built on blockchain technology ensuring immutable and verifiable elections.",
