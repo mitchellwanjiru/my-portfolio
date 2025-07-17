@@ -55,7 +55,15 @@ function App() {
       liveUrl: "https://chipua-web-v1.vercel.app/",
       githubUrl: "https://github.com/mitchellwanjiru/Chipua-web"
     },
-        {
+    {
+      title: "Kids AI E-learning platform",
+      description: "An interactive learning app built with React, TypeScript, Supabase, and Gemini API, delivering personalized AI-powered lessons for kids. It features smart question generation, progress tracking, and analytics for parents and teachers—plus offline fallback for seamless learning anytime.",
+      image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1752765828/Screenshot_2025-07-17_182300_pdo5ds.png",
+      tags: ["React", "Typescript", "Supabase", "Gemini API"],
+      liveUrl: "https://kidselearning.vercel.app/",
+      githubUrl: "https://github.com/mitchellwanjiru/kidselearning"
+    },
+    {
       title: "E-Book Website",
       description: "A beautiful website designed for purchasing E-books",
       image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1750333119/Screenshot_2025-06-19_143810_mi8e8b.png",
@@ -63,14 +71,7 @@ function App() {
       liveUrl: "https://mitchellwanjiru.github.io/docs/",
       githubUrl: "https://github.com/mitchellwanjiru/docs"
     },
-    // {
-    //   title: "Blockchain Voting System",
-    //   description: "Secure and transparent voting system built on blockchain technology ensuring immutable and verifiable elections.",
-    //   image: "https://images.pexels.com/photos/6962024/pexels-photo-6962024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    //   tags: ["Solidity", "Web3.js", "React", "Ethereum"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com/example/blockchain-voting"
-    // },
+    
     // {
     //   title: "Real Estate Platform",
     //   description: "Comprehensive real estate platform with property listings, virtual tours, and mortgage calculator integration.",
