@@ -32,6 +32,14 @@ function App() {
 
   const projects = [
     {
+      title: "Simba Smart Invoice",
+      description: "A smart automated invoice system with B2B linking that improves business analytics capabilities and reduces human errors. Implements automatic email reminders to improve payment rate and maintain business relationships",
+      image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1771434132/Screenshot_2026-02-18_195532_aofljb.png",
+      tags: ["React", "Tailwind CSS", "Shadcdn", "Supabase", "Resend"],
+      liveUrl: "https://simba-smart-invoice.vercel.app/",
+      githubUrl: "https://github.com/mitchellwanjiru/simba-invoice-hub"
+    },
+    {
       title: "FlameGuard E-Commerce Platform",
       description: " A sleek fire safety e-commerce site built with React, TypeScript, and Tailwind CSS. Features include user auth, product browsing, cart, and profile management.",
       image: "https://res.cloudinary.com/dgs7wqzhg/image/upload/v1750325668/Flameguard.png.png",
@@ -72,14 +80,6 @@ function App() {
       githubUrl: "https://github.com/mitchellwanjiru/docs"
     },
     
-    // {
-    //   title: "Real Estate Platform",
-    //   description: "Comprehensive real estate platform with property listings, virtual tours, and mortgage calculator integration.",
-    //   image: "https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    //   tags: ["Vue.js", "Laravel", "MySQL", "Mapbox"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com/example/real-estate"
-    // }
   ];
 
   const nextProject = () => {
@@ -164,7 +164,7 @@ function App() {
               
               <p className="font-light text-lg md:text-xl text-gray-300 py-4 max-w-2xl">
                 Crafting digital experiences that blend creativity with cutting-edge technology. 
-                Specializing in full-stack development, and innovative web solutions.
+                Specializing in full-stack development, cloud and innovative web solutions.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -228,10 +228,11 @@ function App() {
               <div className="grid grid-cols-1 gap-4">
                 {[
                   { name: "React/Next.js", level: 50 },
-                  { name: "TypeScript", level: 40 },
-                  { name: "Node.js", level: 10 },
+                  { name: "TypeScript", level: 50 },
+                  { name: "Node.js", level: 70 },
                   { name: "Python", level: 80 },
                   { name: "Java", level: 75 },
+                  { name: "AWS cloud", level: 50 },
                   { name: "Vercel", level: 70 }
                 ].map((skill, index) => (
                   <div key={index} className="space-y-2">
@@ -264,6 +265,11 @@ function App() {
               </h3>
               <div className="space-y-4">
                 {[
+                  {
+                    name: "AWS Certified Cloud Practitioner",
+                    issuer: "AWS re/Start x Ajira Program",
+                    year: "2025"
+                  },
                   
                   {
                     name: "Angaza Elimu Internet of Things Certification",
@@ -315,6 +321,18 @@ function App() {
               </h3>
               <div className="space-y-4">
                 {[
+
+                  {
+                    name: "AWS Cloud Hosting & Optimization",
+                    issuer: "AWS re/Start",
+                    experience: "Deployed and hosted web application on Amazon EC2 with auto-scaling configuration",
+                    experiences: "Implemented static website hosting on Amazon S3, achieving cost reduction through optimized storage solutions",
+                    experienced: "Configured IAM roles and policies to enforce least-privilege access control and secure resource management",
+                    experience1: "Set up AWS Lambda functions for serverless computing and automated backend processes",
+                    experience2: "Utilized Amazon RDS for managed relational database deployment with automated backups and multi-AZ configurations",
+                    experience3: "Implemented CloudWatch for monitoring, logging, and setting up alerts for system performance metrics",
+                    year: "September - December 2025"
+                  },
                   
                   {
                     name: "Attachee",
@@ -324,6 +342,7 @@ function App() {
                     experienced: "Cleaned and organized company data",
                     year: "May - August 2025"
                   },
+
                   
                   // {
                   //   name: "AI Career Essentials Certificate",
@@ -353,6 +372,9 @@ function App() {
                     <p className="text-sm text-gray-400">{cert.experience}</p>
                     <p className="text-sm text-gray-400">{cert.experiences}</p>
                     <p className="text-sm text-gray-400">{cert.experienced}</p>
+                    <p className="text-sm text-gray-400">{cert.experience1}</p>
+                    <p className="text-sm text-gray-400">{cert.experience2}</p>
+                    <p className="text-sm text-gray-400">{cert.experience3}</p>
                     <p className="text-xs text-purple-400 font-medium">{cert.year}</p>
                   </motion.div>
                 ))}
@@ -522,13 +544,13 @@ function App() {
                 description: "Completed an IoT certification focused on embedded systems, sensor integration, and real-time data communication. Gained hands-on experience building smart devices using ESP32, including motion detection systems and smart home systems.",
                 achievements: ["PCB Design", "Arduino", "Edge Computing", "ESP32S2"]
               },
-              // {
-              //   degree: "Full Stack Web Development Bootcamp",
-              //   school: "freeCodeCamp",
-              //   period: "2020",
-              //   description: "Intensive program covering modern web development technologies and best practices.",
-              //   achievements: ["Top 5% Graduate", "Capstone Project Award"]
-              // }
+              {
+                degree: "AWS Certified Cloud Practitioner",
+                school: "AWS re/Start, Ajira Program",
+                period: "2025-2025",
+                description: "A 12-week full-time training program focused on cloud fundamentals, Linux, networking, security, Python, and preparing for the AWS Certified Cloud Practitioner certification.",
+                achievements: ["Top 5% Graduate", "881/1000 Marks"]
+              }
             ].map((edu, index) => (
               <motion.div
                 key={index}
